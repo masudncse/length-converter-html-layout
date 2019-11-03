@@ -1,0 +1,26 @@
+body{
+    background-color: #000;
+    text-transform: uppercase !important;
+}
+
+input[type="text"]{
+    margin: 0 !important;
+}
+
+td{
+    padding: 15px 15px;
+}
+
+.btn{
+    width: 100% !important;
+    font-size: 25px !important;
+    height: 55px !important;
+    font-weight: bold;
+}
+
+
+input, select{
+    color: white;
+    text-transform: uppercase !important;
+    font-size: 22px !important;
+}
