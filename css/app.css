@@ -1,26 +1,29 @@
 body{
-    background-color: #000;
-    text-transform: uppercase !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 input[type="text"]{
     margin: 0 !important;
 }
 
-td{
-    padding: 15px 15px;
+td, th {
+    padding: 0px 5px !important;
+}
+table {
+    border-collapse: separate;
 }
 
 .btn{
     width: 100% !important;
-    font-size: 25px !important;
-    height: 55px !important;
-    font-weight: bold;
+    height: 50px !important;
+    line-height: 50px !important;
 }
 
+.btn > i{
+    font-size: 25px !important;
+}
 
 input, select{
-    color: white;
-    text-transform: uppercase !important;
-    font-size: 22px !important;
+    font-size: 18px !important;
 }
